@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title></title>
+    <style> 
+        body{
+        font-family: Arial, Helvetica, sans-serif;
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+        }
+
+        .container-top{
+        border: 2px solid white ;
+    }
+    
+        .container{
+        background-color: black;
+        border: 10px solid black;
+        height: 100%;
+        width: 100%;
+    }
+        .row1{
+        display: flex; 
+        width: 100%;
+        height: 90px;
+        background-color: rgb(57, 137, 217);
+    }
+        .row2{
+        display: flex; 
+        width: 100%;
+        height: 80px;
+    }
+        .row2col1{
+        width: 25%;
+        background-color: orangered;
+    }
+        .row2col2{
+        width: 25%;
+        background-color: chocolate ;
+    }
+        .row2col3{
+        width: 25%;
+        background-color: palevioletred;
+    }
+        .row2col4{
+        width: 25%;
+        background-color: darkblue;            
+    }
+        .row3{
+        display: flex;
+        justify-content: space-between;
+        height: 300px;
+        width: 100%
+    }
+        .row3col1{
+        height: 300px;
+        background: plum;
+        width: 12.5%;
+    }  
+        .row3col2{
+        height: 120px;
+        background: olive;
+        border: 2px solid white;
+        width: 120px;
+        display: flex;
+        align-self: center;
+    }   
+        .row3col3{
+        height: 400px;
+        width: 12.5%;
+        background: slategrey;
+    }
+        .row4col1{
+        height: 100px;
+        width: 100%;
+        background: green
+    }
+    
+    </style>
+
+<body>
+<div class="container-top">
+
+    <div class="container">
+        <div class="row1"></div>
+        <div class="row2">
+            <div class="row2col1"></div>
+            <div class="row2col2"></div>
+            <div class="row2col3"></div>
+            <div class="row2col4"></div>
+        </div>
+        <div class="row3">
+            <div class="row3col1"></div>
+            <div class="row3col2"></div>
+            <div class="row3col3"></div>
+        </div>
+        <div class="row4col1">
+        </div>
+    </div> 
+</div>
+</body>
+</html>
